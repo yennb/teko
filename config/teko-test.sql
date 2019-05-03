@@ -11,7 +11,7 @@
  Target Server Version : 100134
  File Encoding         : 65001
 
- Date: 03/05/2019 16:39:43
+ Date: 03/05/2019 18:07:19
 */
 
 SET NAMES utf8mb4;
@@ -34,6 +34,6 @@ CREATE TABLE `users`  (
 -- Records of users
 -- ----------------------------
 INSERT INTO `users` VALUES (1, 'Yên Nguyễn Thị Bình', 'yenntb5@topica.edu.vn', 'ya29.Glz-BvDleup2UNt7FYxEiQa2U8GkiMPPPUa5biADr2orRmmpH2-P86dK9N7FLIFXJio5BlFb4Q1LKQlypEBFNMzVOCevHpvNuZAa6-JcUMNWr-nCwG6uz9bAj7gnCg', 'offline');
-INSERT INTO `users` VALUES (2, 'Bình Yên Nguyễn', 'kemmuadong106@gmail.com', 'ya29.Glz-BibKYeOQG8PHd3e1kb8RNE8Moi1ce0wRn3B76_xLrDyPB5ozstI1a8pRKFeb3s-5yAszED0hpKOtBL5B9I6IqPbiIDBENhUtyADZMNWhpHsSWYhC8GMmWKct-g', 'online');
+INSERT INTO `users` VALUES (2, 'Bình Yên Nguyễn', 'kemmuadong106@gmail.com', 'ya29.Glz-BibKYeOQG8PHd3e1kb8RNE8Moi1ce0wRn3B76_xLrDyPB5ozstI1a8pRKFeb3s-5yAszED0hpKOtBL5B9I6IqPbiIDBENhUtyADZMNWhpHsSWYhC8GMmWKct-g', 'offline');
 
 SET FOREIGN_KEY_CHECKS = 1;
