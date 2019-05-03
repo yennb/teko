@@ -17,11 +17,6 @@ const io = socketIO(server)
 // This is what the socket.io syntax is like, we will work this later
 io.on('connection', socket => {
   console.log('New client connected');
-  socket.on('change color', (color) => {
-    console.log('Color Changed to: ', color);
-    io.sockets.emit('change color', color);
-  });
-
   socket.on('online user', (user) => {
     console.log('online user: ', user);
     socket.userId = user;
