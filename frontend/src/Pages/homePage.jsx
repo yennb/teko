@@ -45,11 +45,6 @@ class homePage extends Component {
 
     return (
       <div>
-        <div style={{ textAlign: "center" }}>
-          <button onClick={() => this.send()}>Change Color</button>
-          <button id="blue" onClick={() => this.setColor('blue')}>Blue</button>
-          <button id="red" onClick={() => this.setColor('red')}>Red</button>
-        </div>
         <table>
           <tbody>
             <tr>
