@@ -1,0 +1,17 @@
+.content-right {
+  padding-left: 20px;
+  border-left: 1px solid;
+}
+
+.content-left {
+  width: 1000px
+}
+
+.padding-left-7 {
+  padding-left: 7px
+}
+
+.login {
+  text-align: center;
+  margin-top: 200px;
+}
