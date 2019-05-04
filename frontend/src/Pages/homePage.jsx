@@ -39,8 +39,10 @@ class homePage extends Component {
     var vm = this;
     socket.on('reload users', function(rows){
       console.log('socket reload rows: ', rows);
-      vm.props.users.dataUsers.data = rows;
-      vm.forceUpdate();
+      if(vm.props.users && vm.props.users.dataUsers){
+        vm.props.users.dataUsers.data = rows;
+        vm.forceUpdate();
+      }
     });
 
     return (
